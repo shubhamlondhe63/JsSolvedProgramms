@@ -2,7 +2,6 @@
 
 function swapObject(object) {
   const newObject = {};
-
   for (const key in object) {
     newObject[object[key]] = key;
   }
@@ -15,5 +14,10 @@ const myObj = {
   age: 28,
 };
 
+console.log(myObj.FirstName);
+
 const swapped = swapObject(myObj);
 console.log(swapped);
+
+
+
