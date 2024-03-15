@@ -16,3 +16,19 @@ for (let i = 1; i< 10 ; i++){
     }   
 }
 
+// with object we cannot iterate througth the 
+const myObject = {
+    firstName : "Shubham",
+    LastName : "Londhe",
+    age : 25
+}
+
+const keys = Object.keys(myObject);
+console.log("keys are : ", keys);
+
+for (let i = 0; i < keys.length; i++) {
+    const key = keys[i];
+    console.log(key + ": " + myObject[key]);
+}
+
+
