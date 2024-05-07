@@ -5,3 +5,14 @@ const newArray = arr.filter((element, index, arr) => {
 });
 
 console.log(newArray);
+
+// Output 
+
+// true
+// false
+// true
+// true
+// true
+// false
+// true
+// true
