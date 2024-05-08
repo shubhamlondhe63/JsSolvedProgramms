@@ -40,11 +40,4 @@ if (true){
 
 console.log(blockvariable);
 
-
-// final output for this is 
-
-// I am global variable
-// I am Functional variable
-// I am block variable
-// I am variable Using var
-// I am variable Using var
+// this is for understanding of scope
