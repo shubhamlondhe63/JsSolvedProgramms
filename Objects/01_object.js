@@ -19,5 +19,7 @@ console.log(myObj.FirstName);
 const swapped = swapObject(myObj);
 console.log(swapped);
 
+console.log();
+
 
 
